@@ -1,0 +1,154 @@
+body {
+    padding: px;
+    background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
+    background-attachment: fixed;
+}
+
+form {
+    width: 700px;
+    margin: auto;
+}
+
+.container {
+    background-color: #d6d4d0;
+    padding: 20px;
+    margin-top: 20px;
+    -webkit-box-shadow: 10px 13px 21px -5px rgba(0, 0, 0, 0.62);
+    -moz-box-shadow: 10px 13px 21px -5px rgba(0, 0, 0, 0.62);
+    box-shadow: 10px 13px 21px -5px rgba(0, 0, 0, 0.62);
+}
+
+label {
+    display: inline-block;
+    width: 155px;
+}
+
+.container input {
+    width: 40%;
+    clear: both;
+    padding: 0;
+    height: 30px;
+    position: relative;
+    outline: none;
+    border: 2px solid #d6d4d0;
+    border-color: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+
+}
+
+#submitbtn {
+    background-color: #d9d450;
+    width: 20%;
+    margin-left: 27%;
+}
+
+#resetbtn {
+    background-color: #d9d450;
+    width: 20%;
+    margin-left: 20px;
+}
+
+.header {
+    padding: 30px;
+    text-align: center;
+    background-color: #eee;
+    background-image: linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black), linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black);
+    background-size: 60px 60px;
+    background-position: 0 0, 30px 30px;
+
+}
+
+.companyname {
+    color: #fbb034;
+    font-size: 190%;
+    font-weight: bold;
+    line-height: 60px;
+    ;
+    margin: 10px 24px;
+    text-align: center;
+    background: black;
+    position: static;
+    margin: 10px 27% 10px 27%;
+    opacity: 0.9;
+}
+
+.booked {
+    color: green;
+    font-weight: bold;
+    width: 80%;
+    border: 3px solid #73AD21;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    display: inline-block;
+    box-shadow: 1px 1px 1px #aaaaaa;
+    margin-top: 10px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+
+.error {
+    color: rgb(219, 7, 7);
+    font-weight: bold;
+    width: 80%;
+    border: 3px solid rgb(219, 7, 7);
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    display: inline-block;
+    box-shadow: 1px 1px 1px #aaaaaa;
+    margin-top: 10px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+
+#assignform {
+    background-color: #d6d4d0;
+    padding: 20px;
+    margin-top: 20px;
+    -webkit-box-shadow: 10px 13px 21px -5px rgba(0, 0, 0, 0.62);
+    -moz-box-shadow: 10px 13px 21px -5px rgba(0, 0, 0, 0.62);
+    box-shadow: 10px 13px 21px -5px rgba(0, 0, 0, 0.62);
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+
+}
+
+#searchform {
+    background-color: #d6d4d0;
+    padding: 20px;
+    margin-top: 20px;
+    -webkit-box-shadow: 10px 13px 21px -5px rgba(0, 0, 0, 0.62);
+    -moz-box-shadow: 10px 13px 21px -5px rgba(0, 0, 0, 0.62);
+    box-shadow: 10px 13px 21px -5px rgba(0, 0, 0, 0.62);
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#assigndiv {
+    width: 30%;
+    margin: auto;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#assignform input {
+    width: 40%;
+    clear: both;
+    padding: 0;
+    height: 30px;
+    position: relative;
+    outline: none;
+    border: 2px solid #d6d4d0;
+    border-color: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+}
+
+#searchdiv {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    margin-top: 20px;
+}
